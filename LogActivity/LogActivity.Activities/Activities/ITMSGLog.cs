@@ -83,7 +83,6 @@ namespace LogActivity.Activities
 
             // 텍스트 쓰기
             System.IO.File.AppendAllText(logPath, logMsg, Encoding.Default);
-            Console.WriteLine("@@@" + Environment.CurrentDirectory);
 
             if (write_console)
             {
